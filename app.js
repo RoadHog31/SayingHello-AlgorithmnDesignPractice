@@ -10,3 +10,9 @@
 // Constraint
 // • Keep the input, string concatenation, and output separate.
 
+let personName = prompt(`Hello what is your name?`);
+
+while(personName != null) {
+    
+    console.log(`Hello, ${personName}, nice to meet you!`);
+}
