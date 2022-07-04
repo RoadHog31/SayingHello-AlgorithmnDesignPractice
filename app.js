@@ -13,9 +13,15 @@
 //npm install prompt-sync
 const prompt = require('prompt-sync')();
 
-let personName = prompt(`Hello what is your name?` + ` `);
+inputName(prompt(`Hello what is your name?` + ` `));
 
-if(personName != null) {
+
+function inputName(inputName) {
+
+    if(inputName != null) {
     
-    console.log(`Hello, ${personName}, nice to meet you!`);
+    console.log(`Hello, ${inputName}, nice to meet you!`);
+}
+    
+     
 }
