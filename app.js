@@ -13,7 +13,7 @@
 //npm install prompt-sync
 const prompt = require('prompt-sync')();
 
-let personName = prompt(`Hello what is your name?`);
+let personName = prompt(`Hello what is your name?` + ` `);
 
 if(personName != null) {
     
