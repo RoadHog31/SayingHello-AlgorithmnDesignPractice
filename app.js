@@ -21,7 +21,6 @@ function inputName(inputName) {
     if(inputName != null) {
     
     console.log(`Hello, ${inputName}, nice to meet you!`);
-}
-    
+    }    
      
-}
+};
