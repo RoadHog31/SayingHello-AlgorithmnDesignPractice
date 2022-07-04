@@ -18,9 +18,25 @@ inputName(prompt(`Hello what is your name?` + ` `));
 
 function inputName(inputName) {
 
-    if(inputName != null) {
+    if (inputName != null) {
+        
+        //use to upper or lower methods for right match. 
+        switch (inputName) {
+            case "Stephen":
+                console.log(`Hello, ${inputName}, nice to meet you!`);
+                break;
+            case "Kelly":
+                console.log(`Hello, ${inputName}, how you do'in!`);
+                break;
+            case "Kurtis":
+                console.log(`Hello, ${inputName}, great to see you!`);
+                break;
+            default:
+                case "Kelly":
+                console.log(`Hello, ${inputName}, fantastic to meet you!`);
+                break;                
+        }    
     
-    console.log(`Hello, ${inputName}, nice to meet you!`);
     }    
      
 };
